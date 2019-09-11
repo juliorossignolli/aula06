@@ -1,0 +1,89 @@
+#body{
+    font-family: 'Arial';
+    background: rgb(196, 240, 230);
+    box-sizing: border-box;
+}
+
+#first-div{
+    border: thin solid;
+    margin: 0 auto;
+    width: 50%;
+    background-image: url(https://st2.depositphotos.com/2702639/10537/i/950/depositphotos_105373588-stock-photo-lines-of-code-on-computer.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-decoration: underline white;
+    padding: 5px;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+#ex{
+    font-size: 25px;
+}
+
+#position-text{
+    text-align: center;
+    border: thin solid white;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 76px;
+    background: white;
+    height: 200px;
+    float: left;
+    border-radius: 17px 7px 7px 7px;
+    font-style: italic;
+}
+
+#cont{
+    border: thin;
+}
+
+#last-text{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 30px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    display: block;
+}
+
+a:hover{
+    color: red;
+}
+
+a::first-letter{
+    color: black;
+}
+
+@media screen and (max-width: 1800px) {
+    #position-text{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #position-text{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #position-text{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #position-text{
+        width: 75%;
+    }
+}
+
+
+
