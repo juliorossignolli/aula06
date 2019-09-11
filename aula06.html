@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+        <title>Tipos de forms</title>
+    </head>
+    <body id="body">
+        <div id="first-div">
+            <h1 id="title">Tipos de formulario com estilos CSS</h1>
+        </div>
+        <div id="cont">    
+            <div id="second-div">
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 1</h3>
+                    <form type='text' action="/inserirProduto" method="POST" enctype="application/json" name="meuForm">
+                        Produto:<br>
+                        <input name="Prod" /><br>
+                        Descrição:<br>
+                        <textarea name="Desc"></textarea>
+                    </form>
+                </div> 
+            </div>
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 2</h3>
+                    <form action="/novoElogio">
+                        <label for="name">Nome</label>:<br>
+                        <input type="text" name="name" /><br>
+                        <label for="congratulations">Elogio:</label>:<br>
+                        <textarea type="text" name="congratulations"></textarea>
+                    </form>
+                </div>    
+            </div>
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 3</h3>
+                    <form>
+                        <label for="name">Usuario</label>:<br>
+                        <input name="user"><br>
+                        <label for="name">Senha</label>:<br>
+                        <input type="password" name="password">
+                    </form>
+                </div>    
+            </div>
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 4</h3>
+                    <form>
+                        Status:<br/>
+                        <select name="status">
+                            <option value="so">Solteiro</option>
+                            <option value="ca">Casado</option>
+                            <option value="vi">Viuvo</option>
+                        </select>    
+                    </form>       
+                </div>    
+            </div>
+        </div>
+        <div id="cont">    
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 5</h3>
+                    <form>
+                        Status:<br>
+                        <input name="status" type="checkbox" value="so">Solteiro<br>
+                        <input name="status" type="checkbox" value="viu">Viuvo<br>
+                        <input name="status" type="checkbox" value="ca">Casado<br>
+                    </form>     
+                </div>    
+            </div>
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 6</h3>
+                    <form>
+                        Sala:<br>
+                        <input name="Sala" type="radio" value="um">Sala 1<br>
+                        <input name="Sala" type="radio" value="dois">Sala 2<br>
+                        <input name="Sala" type="radio" value="tres">Sala 3<br>
+                    </form>  
+                </div>        
+            </div>
+            <div>
+                <div id="position-text">
+                    <h3 id="ex">Exemplo 7</h3>
+                    <form>
+                        <label for="input_email">E-mail do usuario:</label><br>
+                        <input type="email" name="email" id="email">
+                    </form> 
+                </div>         
+            </div>
+            <div id="position-text">
+                <h3 href="" id="ex">HTML e CSS:</h3>
+                <a href='#' id="last-text">Ultimas aulas de Desenvolvimento Web e conhecimentos relacionados a programação</p>
+            </div> 
+        </div>    
+    </body>
+</html> 
